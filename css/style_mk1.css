@@ -37,6 +37,7 @@ body
     left: 50%;
     width: 500px;
     height: 500px;
+    max-width: 100%;
     margin: -250px 0 0 -250px;
     background-image: url("../img/logo_website.png");
     background-position: center center;
