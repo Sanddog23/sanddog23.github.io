@@ -21,6 +21,25 @@ body p
     font-weight: 520;
 }
 
+.contactinfo
+{
+    font-size: 74%;
+    line-height: 1.3;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.resumebox {
+	border: #b4b4b4 solid thin;
+}
+
+.resumetext {
+	font-size: 65%;
+	line-height: 1.3;
+	text-align: center;
+	padding-top: 1em;
+}
+
 .main-text
 {
     padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto; padding-top: 30px;
