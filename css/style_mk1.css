@@ -22,9 +22,14 @@ body p
     font-weight: 520;
 }
 
+.projects-intro
+{
+    background-size:cover;background-repeat:no-repeat;position:relative;top:0;height:50vh!important;overflow:hidden;
+}
+
 .project-heading
 {
-    position:relative;text-align: center; width:100%;
+    position:relative;text-align: center; width:100%; margin-top: 225px!important;
 }
 
 .doc-footer {
@@ -2185,3 +2190,4 @@ a.hover-reverse:active,a.hover-reverse:focus,a.hover-reverse:hover
 
 
 }
+
