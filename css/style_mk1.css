@@ -22,6 +22,11 @@ body p
     font-weight: 520;
 }
 
+.project-heading
+{
+    position:relative;text-align: center; width:100%;
+}
+
 .doc-footer {
   padding: 40px 0;
   color: #999;
