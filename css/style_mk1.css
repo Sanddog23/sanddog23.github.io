@@ -22,6 +22,11 @@ body p
     font-weight: 520;
 }
 
+.project-title
+{
+    background-color: transparent;color: #7B181E!important;
+}
+
 .projects-intro
 {
     background-size:cover;background-repeat:no-repeat;position:relative;top:0;height:50vh!important;overflow:hidden;
