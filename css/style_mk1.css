@@ -22,6 +22,21 @@ body p
     font-weight: 520;
 }
 
+.ness-container
+{
+    margin-top: -18%;
+}
+
+.ness-images
+{
+    max-height: 400px!important;
+    border-radius: 5px;
+    cursor: pointer!important;
+    transition: 0.3s!important;
+}
+
+.ness-images:hover {opacity: 0.7!important;}
+
 .video-wrapper
 {
     position: relative;
