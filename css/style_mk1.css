@@ -100,7 +100,7 @@ body p
     margin-top: -18%;
 }
 
-.ness-images
+.modal-images
 {
     max-height: 400px!important;
     border-radius: 5px;
@@ -108,7 +108,7 @@ body p
     transition: 0.3s!important;
 }
 
-.ness-images:hover {opacity: 0.7!important;}
+.modal-images:hover {opacity: 0.7!important;}
 
 .video-wrapper
 {
