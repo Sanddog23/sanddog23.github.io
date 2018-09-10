@@ -56,15 +56,15 @@
                 <div class="row" style="max-width:95%;margin-left: 4%;margin-right: auto; margin-top: 50px">
                     <div class="ness-container">
                         <div class="col-xs-12 col-sm-4 col-md-4">
-                            <img class="img-responsive ness-images" src="img/ness_img_1.jpg" alt="Presentation made about our telerobotics experiments at NASA Ames Research Center during the Exploration Science Forum (ESF) hosted by the Solar System Exploration Research Virtual Institute (SSERVI)."> 
+                            <img class="img-responsive modal-images" src="img/ness_img_1.jpg" alt="Presentation made about our telerobotics experiments at NASA Ames Research Center during the Exploration Science Forum (ESF) hosted by the Solar System Exploration Research Virtual Institute (SSERVI)."> 
                         </div>
                         
                         <div class="col-xs-12 col-sm-4 col-md-4">
-                            <img class="img-responsive ness-images" src="img/ness_img_3.jpg" alt="The Armstrong rover and robotic arm system.">
+                            <img class="img-responsive modal-images" src="img/ness_img_3.jpg" alt="The Armstrong rover and robotic arm system.">
                         </div>
                         
                         <div class="col-xs-12 col-sm-4 col-md-4">
-                            <img class="img-responsive ness-images" src="img/ness_img_4.jpg" alt="This is our poster used in presenting our work at the Exploration Science Forum (ESF).">
+                            <img class="img-responsive modal-images" src="img/ness_img_4.jpg" alt="This is our poster used in presenting our work at the Exploration Science Forum (ESF).">
                         </div>
                         
                         <div id="myModal" class="modal">
@@ -101,10 +101,10 @@
             var modal = document.getElementById('myModal');
 
             // Get the image and insert it inside the modal - use its "alt" text as a caption
-            var img = $('.ness-images');
+            var img = $('.modal-images');
             var modalImg = $("#img01");
             var captionText = document.getElementById("caption");
-            $('.ness-images').click(function(){
+            $('.modal-images').click(function(){
                 modal.style.display = "block";
                 var newSrc = this.src;
                 modalImg.attr('src', newSrc);
