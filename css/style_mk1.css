@@ -40,7 +40,7 @@ body p
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 1001; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
@@ -67,6 +67,7 @@ body p
     display: block;
     width: 80%;
     max-width: 90%;
+    z-index: 1001;
 }
 
 .modal-content, #caption {
@@ -121,6 +122,7 @@ body p
     border-radius: 5px;
     cursor: pointer!important;
     transition: 0.3s!important;
+    z-index: 1001;
 }
 
 .modal-images:hover {opacity: 0.7!important;}
