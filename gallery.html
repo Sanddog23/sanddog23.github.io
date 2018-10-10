@@ -40,8 +40,60 @@
             </div>
         </section>
         
+         <main>
+            <div class="main-text">
+                <div class="row" style="max-width:95%;margin-left: 4%;margin-right: auto;">
+                    <div class="col-xs-12 col-sm-3 col-md-3">
+                        <img class="img-responsive modal-images" src="img/gallery_engine_out.jpg" alt="">
+                    </div>
+                        
+                    <div class="col-xs-12 col-sm-3 col-md-3">
+                        <img class="img-responsive modal-images" src="img/gallery_engine_in.jpg" alt="">
+                    </div>
+                    
+                    <div id="myModal" class="modal">
+                        <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                            <img class="modal-content" id="img01">
+                            <div id="caption"></div>
+                    </div>
+                </div>
+                
+                
+                <div class="row">
+                    <div class="col-xs-12 col-lg-12 col-sm-12 col-md-12">
+                        <div class="doc-footer">
+                            <p>Copyright &copy; 2018, Alex Sandoval</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
         <script src="java/scripts.js"></script>
         <script src="java/main.js"></script>
         <script src="java/custom.js"></script>
+        <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = $('.modal-images');
+            var modalImg = $("#img01");
+            var captionText = document.getElementById("caption");
+            $('.modal-images').click(function(){
+                modal.style.display = "block";
+                var newSrc = this.src;
+                modalImg.attr('src', newSrc);
+                captionText.innerHTML = this.alt;
+            });
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+        </script>
     </body>
 </html>
