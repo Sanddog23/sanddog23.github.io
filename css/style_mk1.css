@@ -37,6 +37,26 @@ body p
     position:relative;text-align: center; width:100%; margin-top: 18%!important;
 }
 
+.gallery_row
+{
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.gallery_column
+{
+    padding: 0 4px;
+}
+
+.gallery_column img
+{
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
